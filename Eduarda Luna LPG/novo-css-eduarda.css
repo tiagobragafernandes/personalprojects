@@ -1,0 +1,238 @@
+body{
+    background: rgb(21, 0, 34);
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    min-width: 280px;
+    width: 100%;
+}
+
+html{
+    min-width: 280px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.lado-esquerdo{
+    width: 65%;
+    margin-top: 25px;
+    min-width: 519px;
+}
+
+.titulo-site{
+    font-size: 8em;
+    margin-left: 20px;
+}
+
+.linha-meio{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.descricao-eduarda{
+    font-size: 1.2em;
+    width: 80%;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.link-insta-direito{
+    color: white;
+    text-decoration: underline;
+    transition: linear 150ms;
+}
+
+.link-insta-direito:hover{
+    color: purple;
+    transition: linear 150ms;
+}
+
+.lado-direito{
+    width: 35%;
+    margin-top: 25px;
+}
+
+.imagem-perfil{
+    width: 90%;
+    max-width: 370px;
+    border-radius: 200px;
+    border: 3px solid white;
+}
+
+footer{
+    background: rgb(226, 49, 43);
+    width: 100%;
+    margin-top: 8.7vw;
+    background-color: rgba(39, 0, 59, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 250px;
+}
+
+.texto-footer{
+    font-size: 2.5em;
+    margin-top: 10px;
+    
+}
+
+.redes-sociais{
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.icone-footer{
+    width: 2.5em;
+    margin-left: 10px;
+    opacity: 70%;
+    transition: linear 150ms;
+}
+
+.icone-footer:hover{
+    opacity: 100%;
+    transition: linear 150ms;
+    padding: 10px;
+}
+
+.credits{
+    font-size: x-small;
+    color: black;
+}
+
+.link-descricao{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 800px){
+    main{
+        width: 100%;
+        min-width: 280px;
+    }
+
+    .lado-esquerdo{
+        width: 100%;
+        margin-top: 10px;
+        min-width: 280px;
+    }
+
+    .titulo-site{
+        text-align: center;
+        font-size: 6em;
+        min-width: 280px;
+    }
+
+    .descricao-eduarda{
+        margin: 1.1em auto;
+        text-align: center;
+        min-width: 280px;
+    }
+
+    .linha-meio{
+        margin: 0 auto;
+        width: 85%;
+        min-width: 280px;
+    }
+
+    .lado-direito{
+        width: 100%;
+        text-align: center;
+        min-width: 280px;
+    }
+}
+   
+@media (max-width: 768px){
+    .body{
+        width: 100%;
+        min-width: 280px;
+    }
+
+    .lado-esquerdo{
+        width: 100%;
+        margin: 0 10px;
+        min-width: 280px;
+    }
+
+    .titulo-site{
+        text-align: center;
+        font-size: 5em;
+        margin: 0;
+        min-width: 280px;
+    }
+
+    .descricao-eduarda{
+        margin: 1.1em auto;
+        text-align: center;
+        width: 90%;
+        min-width: 280px;
+    }
+
+    .linha-meio{
+        margin: 0 auto;
+        width: 85%;
+        min-width: 280px;
+    }
+
+    .lado-direito{
+        width: 100%;
+        text-align: center;
+        min-width: 280px;
+    }
+
+    footer{
+        width: 100%;
+        min-width: 280px;
+    }
+
+}
+
+@media (max-width: 413px){
+    body, html{
+        min-width: 280px;
+        margin: 0 auto;
+    }
+
+    .titulo-site{
+        text-align: center;
+        font-size: 3.5em;
+        margin: 0 auto;
+        min-width: 280px;
+    }
+
+    .lado-esquerdo{
+        margin: 0 auto;
+        min-width: 280px;
+    }
+
+    .lado-direito{
+        width: 100%;
+        text-align: center;
+        min-width: 280px;
+    }
+
+    .imagem-perfil{
+        position: relative;
+        width: 15em;
+        margin: 0 auto;
+        min-width: 280px;
+    }
+
+    footer{
+        width: 100%;
+        margin: 0 auto;
+        min-width: 280px;
+    }
+}
